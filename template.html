@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boas-Vindas - Banco de Viagens</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+    .header, .footer {
+      background-color: #000000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    .header img {
+      height: 50px;
+    }
+    .content {
+      padding: 40px 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    .content p {
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .credentials {
+      background-color: #f4f4f4;
+      padding: 15px;
+      border-left: 4px solid #000;
+      margin-bottom: 30px;
+    }
+    .credentials p {
+      margin: 5px 0;
+    }
+    .contact {
+      font-size: 0.95em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <img src="https://bancodeviagens.app.br//assets/img/general/bv_logo.png" alt="Banco de Viagens Logo" />
+  </div>
+
+  <div class="content">
+    <p>Olá <strong>{{nome}}</strong>,</p>
+
+    <p>
+      Você foi cadastrado no <strong>Banco de Viagens</strong>, o sistema escolhido pela <strong>CBS ADVOGADOS</strong>
+      para fazer a gestão das viagens corporativas. A partir de agora, você pode cotar e reservar suas próprias
+      viagens diretamente no sistema.
+    </p>
+
+    <div class="credentials">
+      <p>🖥️ <strong>Acesso ao sistema:</strong> <a href="https://bancodeviagens.app.br/" target="_blank">https://bancodeviagens.app.br/</a></p>
+      <p>👤 <strong>Usuário:</strong> {{email}}</p>
+      <p>🔒 <strong>Senha:</strong> BDV@102030</p>
+    </div>
+
+    <div class="contact">
+      <p>Em caso de dúvidas, por favor entre em contato 24 horas:</p>
+      <p>📞 <strong>Telefone:</strong> (11) 2050-0244</p>
+      <p>✉️ <strong>E-mail:</strong> atendimento@bancodeviagens.com.br</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    Banco de Viagens | Soluções em gestão de viagens corporativas
+  </div>
+
+</body>
+</html>
